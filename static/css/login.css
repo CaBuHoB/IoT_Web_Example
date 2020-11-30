@@ -1,0 +1,10 @@
+.forgot:hover::after {
+    content: "Your problem \f2fe";
+    font-family: "Font Awesome 5 Free", serif;
+    position: absolute;
+    left: 0; right: 0; bottom: 10px;
+    z-index: 1;
+    color: #4e73df;
+    text-align: center;
+    font-size: 25px;
+   }

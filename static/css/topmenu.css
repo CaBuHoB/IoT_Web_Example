@@ -1,0 +1,38 @@
+.topcssmenu > li > a {
+  color: #404040;
+}
+
+.topcssmenu li {
+  list-style-type: none;
+}
+
+.topcssmenu-submenu-link:after {
+  content: "\f107";
+    font-family: "Font Awesome 5 Free", serif;
+  color: inherit;
+  margin-left: 10px;
+}
+
+.topcssmenu-submenu {
+  background: #404040;
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+  padding-left: 0;
+  text-align: center;
+}
+
+.topcssmenu-submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 13px;
+}
+
+.topcssmenu > li:hover .topcssmenu-submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}

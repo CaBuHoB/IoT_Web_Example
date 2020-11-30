@@ -1,0 +1,4 @@
+flask~=1.1.2
+flask_sqlalchemy
+flask_login
+gunicorn

@@ -1,0 +1,18 @@
+{% extends "base_with_navbar.html" %}
+
+{% block data %}
+    <link href="/static/css/all.css" rel="stylesheet"/>
+    <div class="container-fluid">
+        <h3 class="text-dark mb-1">CSS Menu</h3>
+    </div>
+    <ul class="topcssmenu">
+        <li><a class="topcssmenu-submenu-link">Special menu</a>
+            <ul class="topcssmenu-submenu">
+                <li><a href="/">Dashboard</a></li>
+                <li><a href="/profile">Profile</a></li>
+                <li><a href="/css-menu">CSS Menu</a></li>
+                <li><a href="/404">404</a></li>
+            </ul>
+        </li>
+    </ul>
+{% endblock %}
